@@ -24,9 +24,9 @@ def trim_data(data, list):
 
 
 def search(state_name, county_name=False):
-    print('--------------')
-    print(county_name)
-    print('--------------')
+    #print('--------------')
+    #print(county_name)
+    #print('--------------')
     if county_name is not False:
         if str(county_name).lower() == "new york city":
             return {'COUNTY': '153', 'CTYNAME': 'New York City (5 counties)',
